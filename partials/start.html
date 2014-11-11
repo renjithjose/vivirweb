@@ -1,0 +1,36 @@
+
+	<div class="form-group">
+		 <div class="col-xs-12" align="center">
+            <p class="form-control-static">
+          
+            	<!-- <div  ng-bind-html="text" ></div> -->
+            	<div ng-include="'partials/heading.html'" ></div> 
+            
+            </p>
+            <!-- <div>{{imageids}}</div> -->
+               <div class="col-xs-12 col-md-8">
+		 	     <div class="row">
+		 	     	<div ng-repeat ="single_image_det in buttonDetails" ng-include="'partials/images_buttons.html'"  
+		 	     	 ng-click="itemClicked($index,single_image_det.image_id)"
+		 	     	 ng-class="{ 'selected-class-name': $index == selectedIndex }">
+		 	     	</div>
+		 	        <!-- <div ng-repeat ="single_image_det in buttonDetails" ng-include="'partials/select_button.html'" ></div> -->
+		         </div>
+		         
+		         
+              </div> 
+          <div class="col-xs-12 col-md-8">
+		 	     <div class="row">   
+            	    <div  ng-include="'partials/audio.html'" ></div>
+                </div>
+              </div>
+            <div class="col-xs-12 col-md-8">
+		 	     <div class="row">  
+                     <div  ng-include="'partials/go_button.html'" ></div>
+               </div>
+            </div>   
+        </div>
+		</div>
+		 	
+		 	<!-- <a href="#SelectLan" class="btn btn-primary btn-lg"> Start Program</a> -->
+		 	

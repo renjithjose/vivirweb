@@ -1,0 +1,159 @@
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+.navbar-brand {float:none;color:white}
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+.spacer {  margin-top: 40px; }
+
+#image {
+    position: absolute;
+    right: auto;
+    overflow: hidden;
+    left: 0px;
+    width: 248px;
+    height: auto;
+    top: 0px;
+}
+
+#DC_img1 {
+    margin: auto;
+    width: auto;
+    height: auto;
+    position: relative;
+}
+#rbutton0 {
+    position: absolute;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    width: 248px;
+    height: auto;
+    left: 10px;
+    top: 10px;
+}
+
+#rtext0 {
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    right: 11px;
+    width: auto;
+    height: auto;
+    bottom: 0px;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    font-family: 'Hoefler Text';
+    color: rgb(51, 51, 51);
+    text-shadow: none;
+    font-size: 22px;
+    line-height: 27px;
+    text-align: center;
+    top: 216px;
+    left: 12px;
+}
+#mom0 {
+    position: absolute;
+    right: auto;
+    overflow: hidden;
+    width: 248px;
+    height: 203px;
+    top: 0px;
+    left: -2px;
+}
+#lan-text{
+	 position: absolute;
+    right: auto;
+    overflow: hidden;
+    width: 248px;
+    height: 203px;
+    top: 250px;
+    left: -2px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS';
+    font-size: 20px;
+    line-height: 39px;
+  
+}
+#questionSubmit {
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.589844) 0px -1px 0px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-dashboard-region: dashboard-region(control rectangle);
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    font-size: 24px;
+    height: 80px;
+    width: 160px;
+    top: 394px;
+    font-family: 'Hoefler Text';
+    left: 889px;
+}
+#buttonselect0 {
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    overflow: hidden;
+    width: 248px;
+    height: 421px;
+    left: 10px;
+    top: 244px;
+}
+.noclicks {
+    pointer-events: none;
+}
+.disabled {
+  color: gray;
+  cursor: default;
+}
+.selected #rtext0 {
+    color: white;
+}
+.primary {
+  background-color:#bbb;
+}
+span {
+  cursor: pointer;
+}
+
+.selected-class-name {
+  color: red;
+}.videowrapper {
+    float: none;
+    clear: both;
+    width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 9px;
+    height: 0;
+    margin-bottom: 20px;
+}
+.videowrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.videowrapper p {
+	position: absolute;
+	bottom: -26px;
+}
