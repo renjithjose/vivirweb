@@ -1,36 +1,36 @@
-
-	<div class="form-group">
-		 <div class="col-xs-12" align="center">
-            <p class="form-control-static">
-          
-            	<!-- <div  ng-bind-html="text" ></div> -->
+	 <div class="col-xs-12" align="center">
+	     <div class="form-group">
+	          <p class="form-control-static">
             	<div ng-include="'partials/heading.html'" ></div> 
-            
-            </p>
-            <!-- <div>{{imageids}}</div> -->
-               <div class="col-xs-12 col-md-8">
-		 	     <div class="row">
-		 	     	<div ng-repeat ="single_image_det in buttonDetails" ng-include="'partials/images_buttons.html'"  
-		 	     	 ng-click="itemClicked($index,single_image_det.image_id)"
-		 	     	 ng-class="{ 'selected-class-name': $index == selectedIndex }">
-		 	     	</div>
-		 	        <!-- <div ng-repeat ="single_image_det in buttonDetails" ng-include="'partials/select_button.html'" ></div> -->
-		         </div>
-		         
-		         
-              </div> 
-          <div class="col-xs-12 col-md-8">
-		 	     <div class="row">   
-            	    <div  ng-include="'partials/audio.html'" ></div>
-                </div>
-              </div>
-            <div class="col-xs-12 col-md-8">
-		 	     <div class="row">  
-                     <div  ng-include="'partials/go_button.html'" ></div>
-               </div>
-            </div>   
+             </p>
         </div>
-		</div>
+	</div>
+   
+     <div class="row">
+     <div class="col-md-6 center-block">	
+     	<div ng-repeat ="single_image_det in buttonDetails" ng-include="'partials/images_buttons.html'"  
+     	 ng-click="itemClicked($index,single_image_det.image_id)"
+     	 ng-class="{ 'selected-class-name': $index == selectedIndex }">
+     	</div>
+     	       <div id="buttonselect0" class="noclicks" style="display: none; opacity: 1; -webkit-transition: 0.6s; transition: 0.6s; left: 15px;">
+                <img id="DC_img10" src="components/common_images/button-rect-down.png">
+              </div>
+       </div>	
+
+      </div>
+ 
+ 
+      <div class="col-xs-12 col-md-8">
+ 	     <div class="row">   
+    	    <div  ng-include="'partials/audio.html'" ></div>
+        </div>
+      </div>
+    <div class="col-xs-12 col-md-8">
+ 	     <div class="row">  
+             <div  ng-include="'partials/go_button.html'" ></div>
+       </div>
+    </div>   
+  
 		 	
-		 	<!-- <a href="#SelectLan" class="btn btn-primary btn-lg"> Start Program</a> -->
+		 	
 		 	

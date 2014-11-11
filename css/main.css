@@ -26,6 +26,12 @@
     height: auto;
     position: relative;
 }
+#DC_img10 {
+    margin: auto;
+    width: auto;
+    height: auto;
+    position: relative;
+}
 #rbutton0 {
     position: absolute;
     border-top-width: 0px;
@@ -76,7 +82,7 @@
     width: 248px;
     height: 203px;
     top: 250px;
-    left: -2px;
+    left: 85px;
     font-weight: bold;
     font-family: 'Trebuchet MS';
     font-size: 20px;
@@ -114,8 +120,11 @@
     width: 248px;
     height: 421px;
     left: 10px;
-    top: 244px;
+    top: 155px;
 }
+
+
+
 .noclicks {
     pointer-events: none;
 }
@@ -157,3 +166,10 @@ span {
 	position: absolute;
 	bottom: -26px;
 }
+.activate-go-button{
+  opacity:1;
+}
+.deactivate-go-button{
+	opacity:.5;
+}
+.center-block {float: none !important}

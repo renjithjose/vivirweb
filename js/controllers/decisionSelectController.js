@@ -18,9 +18,13 @@ vivirApp.controller('DecisionSelectController', function($scope,$location,$sce,c
     
      $scope.audio_source = './components/audio/'+currentStageObj.audio_id+'.mp3';
     
-   $scope.selectedIndex = -1;
-    $scope.itemClicked = function ($index,lan_id) {
-   
+    $scope.selectedIndex = -1;
+    $scope.go_button_class = "deactivate-go-button";
+    
+     $scope.itemClicked = function ($index,lan_id) {
+     	
+     $scope.go_button_class = "activate-go-button";
+     
     if(lan_id=="1")
   	  { StateManagementService.languageSelected="es"; }
   	else
